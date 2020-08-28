@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CounterClassComponent from "./CounterClassComponent";
 import CounterFunctionalComponent from "./CounterFunctionalComponent";
+import Ex1Style from "./components/ex1_styles";
 
 // let   เปลี่ยนค่าได้
 // const เปลี่ยนค่าไม่ได้
@@ -30,6 +31,7 @@ function App() {
       </button>
       <CounterClassComponent />
       <CounterFunctionalComponent />
+      <Ex1Style />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CounterClassComponent from "./CounterClassComponent";
 import CounterFunctionalComponent from "./CounterFunctionalComponent";
 import Ex1Style from "./components/ex1_styles";
+import Ex2Image from "./components/ex2_image";
 
 // let   เปลี่ยนค่าได้
 // const เปลี่ยนค่าไม่ได้
@@ -32,6 +33,7 @@ function App() {
       <CounterClassComponent />
       <CounterFunctionalComponent />
       <Ex1Style />
+      <Ex2Image image="/logo512.png" count={count} />
     </div>
   );
 }
